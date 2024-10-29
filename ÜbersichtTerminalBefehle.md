@@ -25,6 +25,16 @@
 | `grep`     | Sucht nach bestimmten Wörtern oder Ausdrücken in einer Datei. | `grep "Suchwort" datei.txt` | `-i` ignoriert Groß-/Kleinschreibung in der Suche. |
 
 
+### Nützliche Shell-Funktionen
+
+| **Befehl** | **Beschreibung** | **Beispiel** | **Anwendung** |
+|------------|-------------------|--------------|---------------|
+| `history`  | Zeigt die Befehls-Historie an. | `history` | Hilfreich zum Nachschlagen oder Wiederverwenden alter Befehle. |
+| `man`      | Zeigt die Handbuchseiten (Manual Pages) für Befehle an. | `man ls` | Zeigt Dokumentation und Optionen eines Befehls. |
+| `echo`     | Gibt Text oder Variablen aus. | `echo $HOME` | `$HOME` gibt das Home-Verzeichnis des Benutzers aus. |
+| `clear`    | Löscht den Terminal-Bildschirm und sorgt für eine übersichtliche Oberfläche. | `clear` | Macht das Terminal übersichtlich, ideal für längere Sessions. |
+
+
 ### Netzwerk und Internet
 
 | **Befehl** | **Beschreibung** | **Beispiel** | **Anwendung** |

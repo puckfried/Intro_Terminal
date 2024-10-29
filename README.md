@@ -102,6 +102,7 @@
 
 1. Skriptdatei erstellen (`nano createWebsite.sh`).
 2. Skript schreiben
+
 ```
 #!/bin/bash
 ordner="$1"
@@ -114,4 +115,4 @@ code "$ordner"
 
 3. Skript ausführbar machen (`chmod +x ./createWebsite.sh`).
 4. Programm von überall ausführbar machen
-    - kopieren mit `sudo cp ./createWebsite.sh /usr/local/bin/createWebsite`, so dass es über `createWebsite name` ausführbar ist 
+    - kopieren mit `sudo cp ./createWebsite.sh /usr/local/bin/createWebsite`, so dass es über `createWebsite name` von überall ausführbar ist 
