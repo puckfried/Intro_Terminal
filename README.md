@@ -74,3 +74,44 @@
 - `Strg`+ `a` - zum Anfang der Zeile springen
 - `Strg`+ `e` - zum Anfang der Zeile springen
 - `Pfeil hoch/runter` - durch die letzten Befehlen scrollen
+- `Tabulator`- Autovervollständigung
+
+
+## Zusammenfassung Terminal
+- Absolute und relative Pfade unterscheiden 
+    `./Schreibtisch/projekte/`- ***relativer Pfad***, geht vom aktuellen Ort aus, in den Ordner Schreibtisch von dort in projekte
+    `./home/student/Schreibtisch/projekte/`- ***absoluter Pfad***, startet im root Verzeichnis, geht ebenfalls in projekte 
+- nutzt die Autovervollständigung mit Tabulator-Taste
+- ansonsten schaut nochmal in die Befehlsübersicht, die wichtigsten sind:
+    - cd, mkdir, cp, mv, rm, cat, (nano)
+
+
+## Warum das Terminal
+- Umfangreiche Tool-Unterstützung und nahtlose Linux-Integration
+    - Zugriff auf zahlreiche leistungsfähige Tools, die perfekt in die Linux-Welt eingebettet sind.
+- Volle Kontrolle und Anpassungsmöglichkeiten
+    - Tiefgehende Konfiguration des Systems und Verwaltung von Berechtigungen direkt über das Terminal.
+- Erweiterbarkeit und effiziente Softwareverwaltung
+  - Einfache Installation und Verwaltung von Software durch den leistungsstarken Paketmanager apt.
+- Nahtlose Unterstützung für Remote-Entwicklung
+    - Einfache Verbindung zu entfernten Servern und Verwaltung über SSH, ideal für die Webentwicklung.
+- Mächtige Funktionalität durch Piping und Scripting
+
+
+## *Exkurs* kleines Bash Script erstellen
+
+1. Skriptdatei erstellen (`nano createWebsite.sh`).
+2. Skript schreiben
+```
+#!/bin/bash
+ordner="$1"
+mkdir "$ordner"
+mkdir "$ordner/bilder"
+touch "$ordner/index.html"
+touch "$ordner/style.css"
+code "$ordner"
+```
+
+3. Skript ausführbar machen (`chmod +x ./createWebsite.sh`).
+4. Programm von überall ausführbar machen
+    - kopieren mit `sudo cp ./createWebsite.sh /usr/local/bin/createWebsite`, so dass es über `createWebsite name` ausführbar ist 
