@@ -21,7 +21,6 @@
     - **Du musst nicht alles perfekt behalten**
     - Du hast das Internet und viel Zeit zum Üben!
 
-
 - Du kennst vielleicht die Funktionsweise von Dateien in Windows
 - Dort hast du deine C:\ und möglicherweise D:\ usw. Laufwerke, die das Dateisystem enthalten
 - In Linux gibt es keine solchen Laufwerke
@@ -38,7 +37,7 @@
     - In home gibt es ein Verzeichnis namens dci
     - In dci gibt es eine Datei namens `cv.pdf`
 
-- Vier bemerkenswerte Verzeichnisse
+- Vier bemerkenswerte Verzeichnisse, [hier eine ausführlichere Übersicht](./OrdnerLinux.md)
 
     - `/`				das Root-Verzeichnis
     - `/etc`			Konfigurationsdateien
@@ -55,7 +54,7 @@
 
 - Das Home-Verzeichnis des aktuellen Benutzers hat auch eine kleine Abkürzung
     - Der Pfad `~` bezieht sich auf das Home-Verzeichnis des aktuellen Benutzers
-    - Wenn man als `dci` eingeloggt ist, ist das Home-Verzeichnis oder `~` `/home/dci`
+    - Wenn man als `student` eingeloggt ist, ist das Home-Verzeichnis oder `~` `/home/student`
 
 
 ## Terminal
